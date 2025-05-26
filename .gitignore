@@ -11,14 +11,12 @@ env.bak/
 *.env
 
 # dependencies
-/node_modules
-/.pnp
-.pnp.*
-.yarn/*
-!.yarn/patches
-!.yarn/plugins
-!.yarn/releases
-!.yarn/versions
+/front/node_modules/
+front/.next/
+front/out/
+front/.env*
+front/coverage/
+front/build/
 
 # testing
 /coverage
@@ -62,6 +60,5 @@ next-env.d.ts
 
 # OS files
 .DS_Store
-Thumbs.db
 *.sqlite3
 *.db
