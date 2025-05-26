@@ -17,6 +17,8 @@ front/out/
 front/.env*
 front/coverage/
 front/build/
+node_modules/
+
 
 # testing
 /coverage
@@ -31,6 +33,7 @@ front/build/
 # misc
 .DS_Store
 *.pem
+front/spy-cat-frontend/.next/
 
 # debug
 npm-debug.log*
